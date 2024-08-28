@@ -11,4 +11,5 @@ resources:
   - resources/prometheus-helmrelease.yaml
   - resources/grafana-helmrelease.yaml
   - resources/loki-helmrelease.yaml
+  - resources/namespace.yaml
   
