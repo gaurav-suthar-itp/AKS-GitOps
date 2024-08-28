@@ -5,7 +5,7 @@ commonAnnotations:
   provider: kubernetes-monitoring
 
 resources:
-  - resource/helm-repository.yaml
-  - resource/prometheus-helmrelease.yaml
-  - resource/grafana-helmrelease.yaml
-  - resource/loki-helmrelease.yaml
+  - resources/helm-repository.yaml
+  - resources/prometheus-helmrelease.yaml
+  - resources/grafana-helmrelease.yaml
+  - resources/loki-helmrelease.yaml
