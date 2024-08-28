@@ -4,8 +4,11 @@ kind: Kustomization
 commonAnnotations:
   provider: kubernetes-monitoring
 
+namespace: monitoring
+
 resources:
   - resources/helm-repository.yaml
   - resources/prometheus-helmrelease.yaml
   - resources/grafana-helmrelease.yaml
   - resources/loki-helmrelease.yaml
+  
