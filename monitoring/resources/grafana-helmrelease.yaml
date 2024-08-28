@@ -10,7 +10,7 @@ spec:
   targetNamespace: default
   chart:
     spec:
-      chart: grafana/grafana
+      chart: grafana
       version: 8.5.0
       sourceRef:
         kind: HelmRepository

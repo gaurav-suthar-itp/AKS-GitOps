@@ -10,7 +10,7 @@ spec:
   targetNamespace: default
   chart:
     spec:
-      chart: prometheus-community/prometheus
+      chart: prometheus
       version: 25.27.0
       sourceRef:
         kind: HelmRepository
