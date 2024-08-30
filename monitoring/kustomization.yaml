@@ -4,7 +4,7 @@ kind: Kustomization
 commonAnnotations:
   provider: kubernetes-monitoring
 
-namespace: flux
+namespace: default
 
 resources:
   - resources/helm-repository.yaml
