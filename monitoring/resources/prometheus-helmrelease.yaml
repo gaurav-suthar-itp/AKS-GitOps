@@ -4,13 +4,15 @@ kind: HelmRelease
 metadata:
   name: prometheus
 spec:
-  interval: 5m0s
+  interval: 1m
+  install:
+    remediation:
+      retries: 1
   releaseName: prometheus
   targetNamespace: default
   chart:
     spec:
       chart: prometheus
-      version: 25.27.0
       sourceRef:
         kind: HelmRepository
         name: prometheus
