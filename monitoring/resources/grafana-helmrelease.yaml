@@ -4,10 +4,10 @@ kind: HelmRelease
 metadata:
   name: grafana
 spec:
-  interval: 5m0s
+  interval: 1m
   install:
     remediation:
-      retries: 3
+      retries: 1
   releaseName: grafana
   chart:
     spec:
