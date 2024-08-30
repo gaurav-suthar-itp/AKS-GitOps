@@ -4,12 +4,12 @@ kind: Kustomization
 commonAnnotations:
   provider: kubernetes-monitoring
 
-namespace: monitoring
+namespace: flux-system
 
 resources:
   - resources/helm-repository.yaml
-  - resources/prometheus-helmrelease.yaml
+  # - resources/prometheus-helmrelease.yaml
   - resources/grafana-helmrelease.yaml
-  - resources/loki-helmrelease.yaml
+  # - resources/loki-helmrelease.yaml
   - resources/namespace.yaml
   
